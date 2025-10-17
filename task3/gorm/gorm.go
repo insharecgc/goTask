@@ -67,7 +67,7 @@ func main() {
 	// db.Create(&Comment{Content: "评论3", PostId: 2})
 	// db.Create(&Comment{Content: "评论4", PostId: 3})
 	// db.Create(&Comment{Content: "评论5", PostId: 4})
-	
+
 	db.Delete(&Comment{Model: gorm.Model{ID: 5}})
 
 	//查询用户1的所有文章及评论
@@ -93,10 +93,10 @@ func main() {
 	fmt.Printf("评论最多的文章标题:%s,内容:%s,评论数量:%d\n", maxCountPost.Post.Title, maxCountPost.Post.Content, maxCountPost.MaxCount)
 }
 
-//为 Post 模型添加一个钩子函数，在文章创建时自动更新用户的文章数量统计字段
+// 为 Post 模型添加一个钩子函数，在文章创建时自动更新用户的文章数量统计字段
 func (p *Post) AfterCreate(db *gorm.DB) error {
 	log.Println("文章创建完成后，触发钩子函数")
-	res :=db.Model(&User{}).Where("id =?", p.UserId).Update("post_num", gorm.Expr("post_num + 1"))
+	res := db.Model(&User{}).Where("id =?", p.UserId).Update("post_num", gorm.Expr("post_num + 1"))
 	if res.Error != nil {
 		log.Printf("更新用户文章数失败:%v\n", res.Error)
 		return res.Error

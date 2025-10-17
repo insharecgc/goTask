@@ -1,0 +1,18 @@
+# 服务器配置
+server:
+  port: ":18080"  # 服务监听端口
+
+# 数据库配置
+database:
+  user: root
+  password: root
+  host: 127.0.0.1
+  port: 3306
+  db_name: gin_demo
+  max_open_conns: 100  # 最大打开连接数
+  max_idle_conns: 20   # 最大空闲连接数
+
+# JWT 配置
+jwt:
+  secret_key: "dgdDFGDGow235!~.gD34nlk&GD*D(sdoin3j4l5"  # 签名密钥
+  expiration_time: 24h  # 令牌有效期（支持 h/m/s 单位）
