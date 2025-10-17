@@ -1,0 +1,29 @@
+{"level":"info","ts":1760717023.4926026,"caller":"task4/main.go:65","msg":"服务器启动","port":"18080"}
+{"level":"fatal","ts":1760717023.493653,"caller":"task4/main.go:67","msg":"服务器启动失败","error":"listen tcp: address 18080: missing port in address","stacktrace":"main.main.func2\n\td:/07Go-Project/goTask/task4/main.go:67"}
+{"level":"info","ts":1760717729.9367368,"caller":"task4/main.go:65","msg":"服务器启动","port":":18080"}
+{"level":"info","ts":1760717852.4442475,"caller":"middleware/logger.go:40","msg":"request info","method":"POST","path":"/api/v1/register","status":200,"ip":"127.0.0.1","latency":0.0023931}
+{"level":"info","ts":1760717868.247411,"caller":"middleware/logger.go:40","msg":"request info","method":"POST","path":"/api/v1/register","status":200,"ip":"127.0.0.1","latency":0.1178246}
+{"level":"info","ts":1760717882.0752602,"caller":"middleware/logger.go:40","msg":"request info","method":"POST","path":"/api/v1/register","status":200,"ip":"127.0.0.1","latency":0.0018165}
+{"level":"info","ts":1760717885.7251842,"caller":"middleware/logger.go:40","msg":"request info","method":"POST","path":"/api/v1/register","status":200,"ip":"127.0.0.1","latency":0.0862261}
+{"level":"info","ts":1760717922.2784994,"caller":"middleware/logger.go:40","msg":"request info","method":"POST","path":"/api/v1/login","status":200,"ip":"127.0.0.1","latency":0.0688902}
+{"level":"info","ts":1760718089.8304737,"caller":"middleware/logger.go:40","msg":"request info","method":"POST","path":"/api/v1/posts","status":200,"ip":"127.0.0.1","latency":0.0075247}
+{"level":"info","ts":1760718103.277259,"caller":"middleware/logger.go:40","msg":"request info","method":"POST","path":"/api/v1/login","status":200,"ip":"127.0.0.1","latency":0.0705466}
+{"level":"info","ts":1760718113.019481,"caller":"middleware/logger.go:40","msg":"request info","method":"POST","path":"/api/v1/posts","status":200,"ip":"127.0.0.1","latency":0.0063664}
+{"level":"info","ts":1760718119.3979008,"caller":"middleware/logger.go:40","msg":"request info","method":"POST","path":"/api/v1/posts","status":200,"ip":"127.0.0.1","latency":0.0042224}
+{"level":"info","ts":1760718174.7475333,"caller":"middleware/logger.go:40","msg":"request info","method":"POST","path":"/api/v1/posts","status":200,"ip":"127.0.0.1","latency":0.0103376}
+{"level":"info","ts":1760718182.364709,"caller":"middleware/logger.go:40","msg":"request info","method":"POST","path":"/api/v1/posts","status":200,"ip":"127.0.0.1","latency":0.0057906}
+{"level":"info","ts":1760718191.1454282,"caller":"middleware/logger.go:40","msg":"request info","method":"POST","path":"/api/v1/posts","status":200,"ip":"127.0.0.1","latency":0.005662}
+{"level":"info","ts":1760718241.7257597,"caller":"middleware/logger.go:40","msg":"request info","method":"GET","path":"/api/v1/posts/list","status":200,"ip":"127.0.0.1","latency":0}
+{"level":"info","ts":1760718267.242483,"caller":"middleware/logger.go:40","msg":"request info","method":"GET","path":"/api/v1/posts/list/1","status":200,"ip":"127.0.0.1","latency":0.0016216}
+{"level":"info","ts":1760718274.6035013,"caller":"middleware/logger.go:40","msg":"request info","method":"GET","path":"/api/v1/posts/list/2","status":200,"ip":"127.0.0.1","latency":0.0022327}
+{"level":"info","ts":1760718416.5851746,"caller":"task4/main.go:75","msg":"开始关闭服务器..."}
+{"level":"info","ts":1760718416.5863094,"caller":"task4/main.go:83","msg":"服务器已关闭"}
+{"level":"info","ts":1760720072.1440907,"caller":"task4/main.go:65","msg":"服务器启动","port":":18080"}
+{"level":"info","ts":1760720090.2691503,"caller":"middleware/logger.go:40","msg":"request info","method":"POST","path":"/api/v1/login","status":200,"ip":"127.0.0.1","latency":0.2221491}
+{"level":"info","ts":1760720097.2163706,"caller":"middleware/logger.go:40","msg":"request info","method":"GET","path":"/api/v1/posts/list/2","status":200,"ip":"127.0.0.1","latency":0.0016344}
+{"level":"info","ts":1760720130.855478,"caller":"middleware/logger.go:40","msg":"request info","method":"GET","path":"/api/v1/posts/list/sgfas","status":200,"ip":"127.0.0.1","latency":0}
+{"level":"info","ts":1760720137.0159073,"caller":"middleware/logger.go:40","msg":"request info","method":"GET","path":"/api/v1/posts/list/1","status":200,"ip":"127.0.0.1","latency":0.0011419}
+{"level":"info","ts":1760720145.2998917,"caller":"middleware/logger.go:40","msg":"request info","method":"POST","path":"/api/v1/register","status":200,"ip":"127.0.0.1","latency":0.0010613}
+{"level":"info","time":"2025-10-17 17:04:22.019","caller":"task4/main.go:66","msg":"服务器启动","port":":18080"}
+{"level":"info","time":"2025-10-17 17:05:17.742","caller":"task4/main.go:76","msg":"开始关闭服务器..."}
+{"level":"info","time":"2025-10-17 17:05:17.742","caller":"task4/main.go:84","msg":"服务器已关闭"}
